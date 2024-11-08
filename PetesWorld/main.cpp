@@ -55,6 +55,29 @@ int main()
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
 	}	
+	if (letter == 'b' || letter == 'B')
+	{
+		if (region == 1)
+		{
+			std::cout << "Belize, Bahamas, Barbados, Bolivia " << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Bosnia and Herzegovina, Belarus, Belguim, Bulgaria " << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Botswana, Burundi, Benin, Burkina Faso " << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Bahrain, Bangladesh, Bhutan, Brunei" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "" << std::endl;
+		}
+	}
 	if (letter == 'z' || letter == 'Z') // written by Pete
 	{
 		if (region == 1)
